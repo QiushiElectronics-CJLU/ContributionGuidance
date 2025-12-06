@@ -1,0 +1,24 @@
+关于协会仓库代码提交流程与命名规范的说明
+为确保协会 GitHub 仓库代码管理的规范化和清晰度，特制定本命名规范。所有提交至协会仓库的代码，必须遵循以下命名规则：
+一、仓库分类与前缀定义
+协会代码主要分为三大类，提交时需根据项目功能选择对应的三字母前缀：
+代码类别		英文全称			对应前缀
+比赛项目代码	Competition Project Code	CPC_
+练习题代码	Practice Problem Code	PPC_
+代码框架库/驱动	Code Framework / Library	CFL_
+二、命名格式规范
+仓库名称（Repository Name）必须遵循以下结构化格式：
+<前缀>_<项目功能描述>_<版本号>_<提交者姓名拼音/英文名>
+项目功能描述 (Project Description)： 使用驼峰命名法（CamelCase）清晰描述项目核心功能，避免使用拼音或模糊词汇。
+版本号 (Version Number)： 使用 V + 数字（例如 V1、V2）标识当前版本迭代。
+提交者姓名 (Submitter Name)： 使用提交者本人的姓名英文字母或拼音全称。
+三、命名示例
+根据上述规范，以下是几个正确的命名示例：
+示例 1 (CFL): 如果张航⚪提交了一个 AD7768 的驱动代码第一版。
+命名： CFL_ad7768Driver_V1_ZhangHangYuan
+示例 2 (CPC): 如果王德含提交了一个工创的国赛代码第一版。
+命名： CPC_HexagonContest_V1_WangDeHan
+示例 3 (PPC): 如果王瑞文选提交了 电赛信号题 练习的代码。
+命名： PPC_SignalGeneratorPractice_V1_WangRuiWenXuan
+四、执行要求
+所有成员在创建新仓库时，必须严格遵守此规范。
