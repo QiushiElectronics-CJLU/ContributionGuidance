@@ -1,7 +1,7 @@
 # Guide For Contribution
 
 ```
-lq到此一游 
+zhy到此一游 
 此人应该每个月贡献协会19USD for Copilot
 ```
 
